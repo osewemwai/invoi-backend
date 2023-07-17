@@ -1,0 +1,33 @@
+# .gitignore
+
+# Ignore node_modules directory
+/node_modules
+
+# Ignore .env file containing environment variables
+.env
+
+# Ignore build directory
+/dist
+
+# Ignore npm/yarn debug logs and errors
+npm-debug.log
+yarn-error.log
+
+# Ignore IDE specific files
+.idea
+.vscode
+*.sublime*
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore files related to testing and coverage
+/coverage
+/.nyc_output
